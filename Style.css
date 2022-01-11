@@ -1,8 +1,37 @@
-body{
-background: rgba(10,10,10,0.1);
-margin:0;
+
+body.day{
+ background: rgba(230, 230, 230, 1);
+  color:black;
+  margin:0;
 }
 
+body.day button.tog{border-radius: 2px;
+background-color: rgba(1,1,1,0.8);
+color:white;
+text-align: center;
+width:50px;
+height:20px;}
+
+
+body.nite{
+
+ background: rgba(1,1,1,0.8);
+  color:white;
+  margin:0;
+}
+body.nite button.tog{border-radius: 2px;
+background-color:rgba(230, 230, 230, 1);
+text-align: center;
+width:50px;
+height:20px;}
+
+
+
+
+.day{background: rgba(10,10,10,0.1);
+margin:0;}
+.night{background: rgba(240,240,240,0.1);
+margin:0;}
 
 ul.nav{
 list-style-type:none;
@@ -41,12 +70,23 @@ padding:10px 10px;
 
 #navi ul.nav li a:hover:not(.active){}
 #navi ul.nav li a.active {background: rgba(100,100,100,0.8);}
+#navi ul.nav li a.activeright {background: rgba(100,100,100,0.8);
+float:right;}
 
 div.headerimg {
 display:block;
 margin: 0;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+pointer-events: none;
 }
 
+div.searchbar{
+display:block;
+margin: 0;
+
+}
 
 .sticky {
   position: fixed;
@@ -82,11 +122,10 @@ font-size:22.5px;
 
 .parallax {
     /* The image used */
-    background-image:url("1.jpg");
+    background-image:url("Images/1.jpg");
 
     /* Full height */
     height: 100%; 
-margin-top:500px;
 /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: top;
@@ -95,7 +134,7 @@ margin-top:500px;
 }
 .parallax2{
     /* The image used */
-    background-image:url("2.jpg");
+    background-image:url("Images/2.jpg");
 
     /* Full height */
     height: 100%; 
@@ -105,4 +144,29 @@ margin-top:500px;
     background-position: center;
     background-repeat: no-repeat;
 	  background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image:url("Images/3.png");
+
+    /* Full height */
+    height: 100%; 
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position:top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image:url("Images/4.png");
+
+    /* Full height */
+    height: 100%; 
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
