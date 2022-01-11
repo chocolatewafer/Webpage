@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+<title>
+Sparsh Nidhi
+</title>
+
+</head>
+<body id= "body" class="day">
+<button id = "button" class=" tog" onclick="Toggle()">Night</button>
+<header><div class="headerimg" align="center"> 
+<img src="../Images/logo2.png" width=144px height=288px  >
+ </div>
+ <div class="searchbar" align="center"> 
+<table width=15%>
+	<tr><th style="vertical-align:middle;"><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+	
+	<input autocomplete="on" class="form-control search" name="q" placeholder="Search in Google.com"required="required"  type="text" >
+</th>
+	<td><button class="button" type="submit"><img src="../Images/Search.png" title= "Click to Search" width=25px height=25px></button>
+	</form></td>
+</tr>
+</table>
+  </div>
+
+</header>
+
+<nav>
+<div id="navi" >
+<ul class="nav">
+<li><a class="active" href="#"><img src="../Images/Home.png" alt="Home" title= "Go to the Homepage!" width=29px height=29px></a></li>
+<li><a class="fright" href="About.html" title="Get to know more About Me...">About</a></li>
+</ul>
+
+</div>
+</nav>
+
+
+<div class="parallax">
+
+</div>
+<h1>
+Scam ho bhai yo page.
+</h1>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="parallax2">
+
+</div>
+</div>
+
+<div class="footer" align=center>
+<p class="footertxt"> Contact Me: 9841222 hati le padyo bhututu Or <a href="mailto:sparsh123nidhi@gmail.com?Subject=Hey!%20What's%20up%20?" target="_top">Mail Me.</a>  </p>
+<p class="footertxt"><Address>
+Copyright lagla hai khyal garlas.<br>
+<br>
+</address>
+</p><div>
+</body>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navi");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+function Toggle() {
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "nite" ? "day" : "nite";
+  
+  
+  var x = document.getElementById("button");
+    if (x.innerHTML === "Day") {
+        x.innerHTML = "Night";
+    } else {
+        x.innerHTML = "Day";
+    }
+}
+</script>
+
+
+
+
+
+</html>

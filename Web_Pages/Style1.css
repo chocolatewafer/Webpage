@@ -1,0 +1,108 @@
+body{
+background: rgba(10,10,10,0.1);
+margin:0;
+}
+
+
+ul.nav{
+list-style-type:none;
+background-color:rgba(25,25,25,0.4);
+padding:0;
+margin: 0;
+overflow:hidden;
+
+}
+
+
+
+#navi ul.nav li a{
+color:white;
+display:block;
+text-decoration:none;
+font-size:25px;
+padding:10px 10px;
+float:left;
+}
+
+#navi ul.nav li a.fright{color:whitesss;
+display:block;
+text-align:center;
+text-decoration:none;
+font-size:25px;
+padding:10px 10px;
+float:right;
+}
+
+#navi ul.nav li a:hover{
+background-color:rgba(25,25,25,0.7);
+padding:10px 10px;
+}
+
+
+#navi ul.nav li a:hover:not(.active){}
+#navi ul.nav li a.active {background: rgba(100,100,100,0.8);}
+
+div.headerimg {
+display:block;
+margin: 0;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky  + .content {
+  padding-top: 60px;
+}
+
+div.footer{
+background: rgba(100,100,100,0.7);
+padding:20px;
+margin:0px;
+overflow:hidden;
+color: rgba(255,255,255,0.9);
+}
+ul.alist{
+list-style-type:circle;
+}
+
+
+th{
+    padding-top: 17px;
+}
+
+ul.alist li{
+font-size:22.5px;
+}
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image:url("1.jpg");
+
+    /* Full height */
+    height: 100%; 
+margin-top:500px;
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    /* The image used */
+    background-image:url("2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	  background-size: cover;
+}
