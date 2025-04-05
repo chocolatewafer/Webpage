@@ -1,2 +1,2 @@
-# Webpage-try-haneko-hai-ta
+# Webpage
 https://chocolatewafer.github.io/Webpage/
