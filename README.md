@@ -1,2 +1,2 @@
 # Webpage
-https://chocolatewafer.github.io/Webpage/
+https://chocolatewafer.github.io/Webpage/index
